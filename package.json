@@ -10,14 +10,14 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:myfirstvscodeextension.clearSpaces"
+		"onCommand:myfirstvscodeextension.setAlarm"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "myfirstvscodeextension.clearSpaces",
-				"title": "Hello World"
+				"command": "myfirstvscodeextension.setAlarm",
+				"title": "Set Alarm"
 			}
 		]
 	},
